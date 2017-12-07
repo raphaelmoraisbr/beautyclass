@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Oct 31 2017 16:35:27 GMT+0000 (UTC)  -->
+<!--  Last Published: Thu Dec 07 2017 20:42:13 GMT+0000 (UTC)  -->
 <html data-wf-page="59f7a12604139300016b93a3" data-wf-site="59f65662fccfea0001f75723">
 <head>
   <meta charset="utf-8">
@@ -21,14 +21,14 @@
 </head>
 <body>
   <div class="utility-page-wrap">
-    <div class="utility-page-content w-form w-password-page">
+    <div class="utility-page-content w-password-page w-form">
       <form method="post" action="/.wf_auth" class="utility-page-form w-password-page"><img src="https://d3e54v103j8qbb.cloudfront.net/static/password-page-lock.832ca8e2c9.svg">
         <h2>Protected page</h2>
-        <div style="display:none;" class="w-embed w-password-page w-script"><input type="hidden" name="path" value="<%WF_FORM_VALUE_PATH%>"><input type="hidden" name="page" value="<%WF_FORM_VALUE_PAGE%>"></div><input type="password" name="pass" placeholder="Enter your password" maxlength="256" autofocus="true" class="w-input w-password-page"><input type="submit" value="Submit" data-wait="Please wait..." class="w-button w-password-page"></form>
-      <div class="w-form-fail w-password-page">
+        <div style="display:none" class="w-password-page w-embed w-script"><input type="hidden" name="path" value="<%WF_FORM_VALUE_PATH%>"><input type="hidden" name="page" value="<%WF_FORM_VALUE_PAGE%>"></div><input type="password" name="pass" placeholder="Enter your password" maxlength="256" autofocus="true" class="w-password-page w-input"><input type="submit" value="Submit" data-wait="Please wait..." class="w-password-page w-button"></form>
+      <div class="w-password-page w-form-fail">
         <div>Incorrect password. Please try again.</div>
       </div>
-      <div style="display:none;" class="w-embed w-password-page w-script">
+      <div style="display:none" class="w-password-page w-embed w-script">
         <script type="application/javascript">(function _handlePasswordPageOnload() {
 	  if (/[?&]e=1(&|$)/.test(document.location.search)) {
 	    document.querySelector('.w-password-page.w-form-fail').style.display = 'block';

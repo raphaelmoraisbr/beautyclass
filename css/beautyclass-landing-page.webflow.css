@@ -277,6 +277,7 @@ img {
 
 .image {
   width: 140px;
+  margin-top: 10px;
 }
 
 .image-2 {
@@ -313,6 +314,12 @@ img {
   border-radius: 50px;
 }
 
+.div-block.blockdepoimento {
+  width: 45px;
+  border-width: 2px;
+  border-color: #fff;
+}
+
 .text-block-2 {
   margin: 23px;
   font-family: Montserrat, sans-serif;
@@ -342,6 +349,14 @@ img {
 
 .text-block-3.informacaotexto {
   margin-top: 7px;
+}
+
+.text-block-3.informacaotexto.informacaohome {
+  margin-top: 35px;
+}
+
+.text-block-3.informacaotexto.oquesomostxt {
+  margin: 30px 11px 11px;
 }
 
 .column {
@@ -403,8 +418,49 @@ img {
 }
 
 .button-2.presente {
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-color: #5cc0c4;
   font-size: 16px;
+}
+
+.button-2.buttonhome {
+  margin-right: 0px;
+  margin-bottom: 36px;
+  margin-left: 0px;
+  clear: none;
+  background-color: #fff;
+  color: #7f65a7;
+}
+
+.button-2.buttonhome.cursobelezabutton {
+  width: 290px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #322778;
+}
+
+.button-2.buttonhome.cursobelezabutton.depoimentobutton {
+  width: 400px;
+  margin-top: 70px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.button-2.buttonhome.cursobelezabutton.bannerbutton {
+  width: 390px;
+}
+
+.button-2.btnpricing {
+  margin-top: 33px;
+  padding-bottom: 16px;
+  background-color: #322778;
+}
+
+.button-2.btnpricing.espera {
+  margin-top: 18px;
+  background-color: #969696;
 }
 
 .image-3 {
@@ -412,16 +468,76 @@ img {
 }
 
 .div-block-2 {
-  margin: 25px 74px 50px;
+  min-height: 350px;
+  margin: 25px 74px 0px;
   padding: 50px;
-  border-radius: 20px;
+  border-radius: 50px;
   background-color: #fff;
+  box-shadow: 0 0 35px 5px rgba(121, 116, 171, .07);
 }
 
 .div-block-2.informacoes {
   margin: 0px;
   padding: 30px;
   text-align: center;
+}
+
+.div-block-2.oquesomosblock {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.div-block-2.oquesomosblock.serveblogk {
+  min-height: auto;
+}
+
+.div-block-2.priceblock {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 21px 21px 35px 5px rgba(121, 116, 171, .07);
+  text-align: center;
+}
+
+.div-block-2.priceblock.priceblockleft {
+  margin-top: 47px;
+  padding-bottom: 50px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #f9f8fd;
+  box-shadow: 0 0 35px 5px rgba(121, 116, 171, .07);
+}
+
+.div-block-2.priceblock.priceblockright {
+  margin-top: 44px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: #f9f8fd;
+}
+
+.div-block-2.priceblock.priceblockcenter {
+  padding-top: 80px;
+  padding-bottom: 108px;
 }
 
 .text-block-5 {
@@ -471,11 +587,21 @@ img {
 }
 
 .heading-3 {
-  margin-top: 50px;
+  margin-top: 65px;
   font-family: Montserrat, sans-serif;
   color: #4a4a4a;
-  font-weight: 600;
+  font-size: 34px;
+  font-weight: 700;
   text-align: center;
+}
+
+.heading-3.curso-de-beleza-heading {
+  margin-top: 170px;
+  color: #fff;
+}
+
+.heading-3.pricinghead {
+  color: #fff;
 }
 
 .column-3 {
@@ -484,14 +610,27 @@ img {
 
 .section-2 {
   padding: 47px;
-  background-image: -webkit-linear-gradient(19deg, #2c2376 7%, #805aa4 53%, #5bc6c6);
-  background-image: linear-gradient(71deg, #2c2376 7%, #805aa4 53%, #5bc6c6);
+  background-image: url('../images/img-bg-purple3x.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Montserrat, sans-serif;
 }
 
 .section-2.depoimentorow {
+  padding-right: 85px;
+  padding-left: 85px;
   background-image: url('../images/img-bg-depoimento3x.jpg');
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.section-2.section2lotufo {
+  background-image: -webkit-linear-gradient(19deg, #2c2376 7%, #805aa4 53%, #5bc6c6);
+  background-image: linear-gradient(71deg, #2c2376 7%, #805aa4 53%, #5bc6c6);
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: repeat;
 }
 
 .row {
@@ -512,7 +651,7 @@ img {
 }
 
 .image-4 {
-  max-height: 111px;
+  max-height: 180px;
 }
 
 .text-block-6 {
@@ -677,6 +816,433 @@ img {
   align-items: stretch;
 }
 
+.row-3 {
+  padding-top: 262px;
+  padding-bottom: 98px;
+  background-image: url('../images/img-banner3x.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.body-2 {
+  font-family: Montserrat, sans-serif;
+}
+
+.heading-5 {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+.body-3 {
+  background-color: #fff;
+  color: #17191b;
+}
+
+.heading-6 {
+  margin-top: 51px;
+  margin-bottom: 51px;
+  font-family: Montserrat, sans-serif;
+  color: #8b8b8b;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.heading-6.curso-de-beleza-text {
+  color: #fff;
+}
+
+.section-4 {
+  background-color: #fff;
+}
+
+.section-5 {
+  background-color: #fff;
+}
+
+.section-5.section-2.bgreverse {
+  background-image: -webkit-linear-gradient(19deg, #2c2376 7%, #805aa4 53%, #5bc6c6);
+  background-image: linear-gradient(71deg, #2c2376 7%, #805aa4 53%, #5bc6c6);
+}
+
+.section-5.section-2.bgreverse.menospaddinglateral {
+  margin-top: -200px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.div-block-4 {
+  padding-right: 85px;
+  padding-bottom: 60px;
+  padding-left: 85px;
+  background-color: #f7f8fc;
+}
+
+.column-6 {
+  text-align: left;
+}
+
+.blockitems {
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.blockitemshead {
+  font-family: Montserrat, sans-serif;
+  color: #322778;
+}
+
+.blockitemstext {
+  font-family: Montserrat, sans-serif;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+
+.div-block-5 {
+  padding-right: 85px;
+  padding-left: 85px;
+}
+
+.slide {
+  display: inline-block;
+  background-image: url('../images/CECILIA-PINHEIRO.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider {
+  height: 500px;
+  border-radius: 25px;
+}
+
+.mask {
+  border-radius: 25px;
+}
+
+.div-block-7 {
+  padding-right: 85px;
+  padding-left: 85px;
+}
+
+.div-block-8 {
+  padding: 0px 85px 50px;
+}
+
+.customrow {
+  margin-top: 30px;
+  clear: both;
+}
+
+.column5 {
+  width: 20%;
+  float: left;
+  clear: none;
+  text-align: center;
+}
+
+.heading-7 {
+  margin: 77px auto 40px;
+  padding-right: 250px;
+  padding-left: 250px;
+  font-family: Montserrat, sans-serif;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.div-block-9 {
+  padding-right: 86px;
+  padding-left: 86px;
+}
+
+.column-7 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.column-8 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.text-block-10 {
+  display: inline;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.div-block-10 {
+  position: absolute;
+  top: -80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 160px;
+  height: 160px;
+  padding-top: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-image: -webkit-linear-gradient(270deg, #5bc6c6, #5bc6c6);
+  background-image: linear-gradient(180deg, #5bc6c6, #5bc6c6);
+}
+
+.text-block-11 {
+  margin-top: 71px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  color: #5d4391;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.text-block-11.pricesmall {
+  margin-top: 36px;
+  font-size: 32px;
+}
+
+.paragraph {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding-right: 48px;
+  padding-left: 48px;
+  font-family: Montserrat, sans-serif;
+  color: #686868;
+  font-weight: 600;
+}
+
+.paragraph.pricingtext2 {
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.paragraph.pricingtext2.textmentoriasmall {
+  font-size: 13px;
+}
+
+.pricinchead {
+  color: #4a4a4a;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.div-block-11 {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.row-4 {
+  margin-top: 131px;
+}
+
+.paragraph-2 {
+  padding-right: 160px;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.paragraph-2.p2 {
+  margin-top: 33px;
+}
+
+.paragraph-2.p3 {
+  margin-bottom: 75px;
+}
+
+.paragraph-3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.row-5 {
+  margin-bottom: 25px;
+}
+
+.text-block-12 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Lato, sans-serif;
+  color: #322778;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text-block-13 {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.homedepoimento {
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align: center;
+}
+
+.depoimentooutline {
+  min-height: 550px;
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.row-6 {
+  margin-top: 40px;
+}
+
+.menulink {
+  margin-top: 24px;
+  margin-right: 25px;
+  font-family: Montserrat, sans-serif;
+  color: #4a4a4a;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.menulink.menudestaque {
+  margin-top: 15px;
+  margin-right: 0px;
+  padding: 5px 28px;
+  border-radius: 50px;
+  background-color: #322778;
+  color: #fff;
+}
+
+.div-block-12 {
+  float: right;
+}
+
+.text-block-14 {
+  font-weight: 600;
+}
+
+.nav-link-2 {
+  font-family: Montserrat, sans-serif;
+  color: #4a4a4a;
+  font-size: 16px;
+}
+
+.nav-link-3 {
+  font-family: Montserrat, sans-serif;
+  color: #4a4a4a;
+  font-size: 16px;
+}
+
+.navbar {
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .6), hsla(0, 0%, 100%, .6));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .6), hsla(0, 0%, 100%, .6));
+}
+
+.section-6 {
+  background-image: url('../images/img_curve_23x.png');
+  background-position: 0px 0px;
+  background-size: 768px;
+}
+
+.div-block-13 {
+  background-image: url('../images/img_curve_23x.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.image-8 {
+  width: 100%;
+}
+
+.slide-2 {
+  background-image: url('../images/BRUNO-LOTUFO.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-3 {
+  background-image: url('../images/ROMEU-FELIPE.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-4 {
+  background-image: url('../images/ANDERSON-COUTO.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-5 {
+  background-image: url('../images/LUCAS-VIEIRA.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-nav {
+  display: none;
+}
+
+.heading-8 {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.div-block-14 {
+  position: absolute;
+  bottom: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 120px;
+  background-image: -webkit-linear-gradient(90deg, #000, hsla(0, 0%, 100%, 0));
+  background-image: linear-gradient(0deg, #000, hsla(0, 0%, 100%, 0));
+}
+
+.right-arrow {
+  display: none;
+}
+
+.div-block-15 {
+  width: 100%;
+  height: 50px;
+}
+
+.image-9 {
+  width: 200px;
+}
+
+.image-9.appdownload {
+  width: 150px;
+  margin-top: 15px;
+}
+
+.image-9.appdownload.appleapp {
+  margin-right: 14px;
+}
+
 @media (max-width: 991px) {
   .hero {
     min-height: 520px;
@@ -743,11 +1309,28 @@ img {
   .button-2.presente {
     font-size: 14px;
   }
+  .div-block-2.priceblock.priceblockleft {
+    margin-bottom: 100px;
+    border-radius: 50px;
+  }
+  .div-block-2.priceblock.priceblockright {
+    border-radius: 50px;
+  }
   .heading-4 {
     margin-left: 20px;
   }
   .videomodal {
     width: 90%;
+  }
+  .column5 {
+    width: 100%;
+  }
+  .heading-7 {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .depoimentooutline {
+    margin-bottom: 25px;
   }
 }
 
@@ -833,12 +1416,30 @@ img {
   .button-2.presente {
     font-size: 16px;
   }
+  .button-2.buttonhome {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .button-2.buttonhome.cursobelezabutton.depoimentobutton {
+    width: 200px;
+    font-size: 15px;
+  }
   .div-block-2 {
-    margin: 0px;
+    margin: 0px 0px 30px;
     padding: 15px;
   }
   .div-block-2.informacoes {
     margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .div-block-2.priceblock {
+    padding: 25px 7px;
+  }
+  .div-block-2.priceblock.priceblockleft {
+    margin-top: 1px;
+    padding: 25px 7px;
+  }
+  .div-block-2.priceblock.priceblockright {
     margin-bottom: 25px;
   }
   .text-block-5.depoimentotexto {
@@ -874,6 +1475,64 @@ img {
   .videomodal {
     width: 95%;
     padding: 0px;
+  }
+  .row-3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .heading-5 {
+    line-height: 61px;
+  }
+  .div-block-4 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .blockitems {
+    margin-bottom: 27px;
+  }
+  .div-block-5 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .div-block-7 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .div-block-8 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .heading-7 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .div-block-9 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .text-block-11 {
+    font-size: 50px;
+  }
+  .div-block-11 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .row-4 {
+    margin-top: 60px;
+  }
+  .paragraph-2.p2 {
+    padding-right: 0px;
+    text-align: center;
+  }
+  .paragraph-2.p3 {
+    padding-right: 0px;
+  }
+  .homedepoimento {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .column-9 {
+    text-align: center;
   }
 }
 
