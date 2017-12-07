@@ -469,8 +469,8 @@ img {
 
 .div-block-2 {
   min-height: 350px;
-  margin: 25px 74px 0px;
-  padding: 50px;
+  margin: 25px 15px 0px;
+  padding: 45px 25px 25px;
   border-radius: 50px;
   background-color: #fff;
   box-shadow: 0 0 35px 5px rgba(121, 116, 171, .07);
@@ -519,25 +519,23 @@ img {
 
 .div-block-2.priceblock.priceblockleft {
   margin-top: 47px;
+  padding-right: 20px;
   padding-bottom: 50px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  padding-left: 20px;
+  border-radius: 50px;
   background-color: #f9f8fd;
   box-shadow: 0 0 35px 5px rgba(121, 116, 171, .07);
 }
 
 .div-block-2.priceblock.priceblockright {
   margin-top: 44px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  padding: 40px 20px 20px;
+  border-radius: 50px;
   background-color: #f9f8fd;
 }
 
 .div-block-2.priceblock.priceblockcenter {
-  padding-top: 80px;
-  padding-bottom: 108px;
+  padding: 80px 20px 108px;
 }
 
 .text-block-5 {
@@ -609,7 +607,7 @@ img {
 }
 
 .section-2 {
-  padding: 47px;
+  padding: 47px 47px 60px;
   background-image: url('../images/img-bg-purple3x.jpg');
   background-position: 50% 0px;
   background-size: cover;
@@ -955,8 +953,8 @@ img {
 }
 
 .div-block-9 {
-  padding-right: 86px;
-  padding-left: 86px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .column-7 {
@@ -1007,7 +1005,7 @@ img {
   -ms-flex: 0 auto;
   flex: 0 auto;
   color: #5d4391;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 700;
 }
 
@@ -1092,14 +1090,14 @@ img {
 }
 
 .homedepoimento {
-  padding-right: 70px;
-  padding-left: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
   text-align: center;
 }
 
 .depoimentooutline {
-  min-height: 550px;
-  padding: 35px;
+  min-height: 600px;
+  padding: 35px 15px;
   border: 2px solid #fff;
   border-radius: 50px;
 }
